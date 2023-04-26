@@ -1,4 +1,5 @@
 object GradleConst {
+    const val KEY_STORE_PATH = "../buildSrc/keystore/debug.keystore"
     const val DEBUG_KEY_STORE_PATH = "../buildSrc/keystore/debug.keystore"
     const val STORE_PASSWORD = "STORE_PASSWORD"
     const val DEBUG_STORE_PASSWORD = "android"
