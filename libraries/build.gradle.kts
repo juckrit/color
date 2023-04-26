@@ -27,7 +27,7 @@ plugins {
 }
 
 android {
-    namespace = "com.example.libraries"
+    namespace = "com.freeman.color.libraries"
     compileSdk = Versions.Android.COMPILE_SDK_VERSION
 
     defaultConfig {

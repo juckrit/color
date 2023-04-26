@@ -48,6 +48,7 @@ plugins {
 }
 
 android {
+    namespace = "com.freeman.color"
     compileSdk = Versions.Android.COMPILE_SDK_VERSION
     buildToolsVersion = BUILD_TOOLS_VERSION
 
