@@ -41,7 +41,7 @@ plugins {
     id(Plugins.Module.KOTLIN_KAPT_PLUGIN)
     id(Plugins.Module.NAV_SAFE_ARGS_PLUGIN)
     id(Plugins.Module.DAGGER_HILT_PLUGIN)
-//    id(Plugins.Module.GOOGLE_SERVICES_PLUGIN)
+    id(Plugins.Module.GOOGLE_SERVICES_PLUGIN)
     id(Plugins.Module.KOTLIN_PARCELIZE)
     id(Plugins.Module.FIREBASE_CRASHLYTIC_PLUGIN)
     id(Plugins.Module.KTLINT_PLUGIN)
@@ -109,6 +109,7 @@ android {
     flavorDimensions.add("environment")
     productFlavors {
         val runTasks = gradle.startParameter.taskNames.toString().toLowerCase()
+        println("asdfasdfa runTasks is $runTasks")
         create(LIFESTYLE) {
             when {
                 runTasks.contains(PRODUCT_FLAVOR_BLUE_RELEASE) -> applicationId =
